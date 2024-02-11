@@ -43,9 +43,11 @@ The first element is the `key` you have to call to get the localized string, sec
 
 Add `#include "LocalizedString.h"` in your class file.
 
-Use this call with your `key` to get the translated string:
+Use the following call with your `key` to get the translated string:
 
 `std::string textToLocalize =  LocalizedString::getInstance()->getLocalizedString("key_to_translate");`
+
+**Note**: If the `key` is not found inside the files, the same `key` will be returned.
 
 ***
 
