@@ -4,6 +4,9 @@ LocalizedString.h
 
 Extension for Axmol Engine: localize your strings to several languages
 
+Inspired by the "Multiple language support" tutorial by Den.
+https://discuss.cocos2d-x.org/t/tutorial-multiple-language-support/16237
+
 Created by Daniel Alias on 2024/02/11 (yyyy/mm/dd) under MIT Licence
 
  ****************************************************************************/
