@@ -2,7 +2,7 @@
 
 Localize your strings to several languages in Axmol Engine.
 
-Inspired in the ["Multiple language support"](https://discuss.cocos2d-x.org/t/tutorial-multiple-language-support/16237) tutorial by Den.
+Inspired by the ["Multiple language support"](https://discuss.cocos2d-x.org/t/tutorial-multiple-language-support/16237) tutorial by Den.
 
 ## Preparations
 
