@@ -110,7 +110,7 @@ string LocalizedString::getLocalizedString(std::string key)
 
         if (localizedText.length() == 0)
         {
-            AXLOG("Localization: key not found");
+            AXLOG("Localization: \"%s\" key not found", key.c_str());
             return key;
         }
 
@@ -132,7 +132,7 @@ string LocalizedString::getLocalizedString(std::string key)
         }
         else if (!document.HasMember(key.c_str()) || document[key.c_str()].IsNull())
         {
-            AXLOG("Localization: key not found");
+            AXLOG("Localization: \"%s\" key not found", key.c_str());
             return key;
         }
 
